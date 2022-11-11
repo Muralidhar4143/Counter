@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.Button{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(140, 217, 231);
+    color: rgb(5, 17, 7);
+    border: 2px solid;
+    border-radius: 8px;
+    font-size: large;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 40%;
+    top: 10%;
+}
+.counter{
+    position: relative;
+    display: inline-flex;
+    margin-left: 30%;
+    margin-top: 130px;
+    font-weight: 400;
+    font-size: larger;
+}
+.plus{
+    position: absolute;
+    display: inline-block;
+    left: 40%;
+    margin-top: 130px;
+    width: 40px;
+    height: 30px;
+    background-color: darkblue;
+    color: white;
+    font-size: x-large;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    
+}
+.minus{
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    width: 40px;
+    height: 30px;
+    background-color: darkblue;
+    color: white;
+    font-size: x-large;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    margin-top: 130px;
+}
+.number{
+    position: absolute;
+    display: inline-block;
+    left: 43.8%;
+    width: 80px;
+    height: 30px;
+    background-color: lightgrey;
+    text-align: center;
+    margin-top: 130px;
+}
